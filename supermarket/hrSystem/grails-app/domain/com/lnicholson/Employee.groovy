@@ -24,7 +24,7 @@ fullName size: 5..50, blank: false
 
 dateOfBirth blank: false
 
-residnece blank:false, size:1..100
+residence blank:false, size:1..100
 
 hourlyRate blank:false
 

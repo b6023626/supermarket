@@ -2,5 +2,5 @@ package com.lnicholson
 
 class ShiftController {
 
-       def index() { }
+    def scaffold = Shift
 }

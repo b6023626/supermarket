@@ -2,5 +2,5 @@ package com.lnicholson
 
 class ManagerController {
 
-    def index() { }
+    def scaffold = Manager
 }

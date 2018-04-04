@@ -2,5 +2,5 @@ package com.lnicholson
 
 class TeamController {
 
-        def index() { }
+    def scaffold = Team
 }

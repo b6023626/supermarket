@@ -1,9 +1,9 @@
-package com.hr
+package com.lnicholson
 
 import grails.testing.gorm.DomainUnitTest
 import spock.lang.Specification
 
-class ShiftSpec extends Specification implements DomainUnitTest<Shift> {
+class TeamSpec extends Specification implements DomainUnitTest<Team> {
 
     def setup() {
     }

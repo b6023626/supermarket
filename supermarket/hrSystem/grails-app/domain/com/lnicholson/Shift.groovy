@@ -19,3 +19,4 @@ numberOfHours blank:false, size:1..5
 startingTime blank:false
     }
 }
+

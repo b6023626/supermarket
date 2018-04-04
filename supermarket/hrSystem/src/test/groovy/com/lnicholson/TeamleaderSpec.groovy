@@ -1,9 +1,9 @@
-package com.hr
+package com.lnicholson
 
 import grails.testing.gorm.DomainUnitTest
 import spock.lang.Specification
 
-class TaskSpec extends Specification implements DomainUnitTest<Task> {
+class TeamleaderSpec extends Specification implements DomainUnitTest<Teamleader> {
 
     def setup() {
     }

@@ -1,9 +1,9 @@
-package com.hr
+package com.lnicholson
 
-import grails.testing.web.controllers.ControllerUnitTest
+import grails.testing.gorm.DomainUnitTest
 import spock.lang.Specification
 
-class ManagerControllerSpec extends Specification implements ControllerUnitTest<ManagerController> {
+class TaskSpec extends Specification implements DomainUnitTest<Task> {
 
     def setup() {
     }

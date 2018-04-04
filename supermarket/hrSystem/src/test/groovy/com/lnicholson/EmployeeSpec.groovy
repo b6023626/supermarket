@@ -1,9 +1,9 @@
-package com.hr
+package com.lnicholson
 
 import grails.testing.gorm.DomainUnitTest
 import spock.lang.Specification
 
-class ManagerSpec extends Specification implements DomainUnitTest<Manager> {
+class EmployeeSpec extends Specification implements DomainUnitTest<Employee> {
 
     def setup() {
     }
