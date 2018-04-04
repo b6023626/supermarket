@@ -1,7 +1,7 @@
 package com.lnicholson
 
 class Manager {
-String fullname
+String fullName
 
 String userName
 

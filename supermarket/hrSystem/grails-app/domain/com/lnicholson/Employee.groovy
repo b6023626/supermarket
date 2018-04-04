@@ -18,6 +18,8 @@ String contract
 
 String employeeID
 
+Team team
+
     static constraints = {
 
 fullName size: 5..50, blank: false
@@ -37,4 +39,7 @@ contract blank:false, size:4..11
 employeeID blank:false, size:2..11, unique:true
 
     }
+
+
+
 }

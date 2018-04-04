@@ -11,7 +11,7 @@ int officePhone
 
 String employeeEmail
 
-int employeeID
+String employeeID
 
 String password
 
@@ -21,7 +21,7 @@ fullName blank:false, size:1..15
 
 department blank:false, size:1..10
 
-secionName blank:false, size:1..15
+sectionName blank:false, size:1..15
 
 officePhone blank:false, size:1..12
 

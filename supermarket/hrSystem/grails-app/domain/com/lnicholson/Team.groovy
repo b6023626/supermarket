@@ -19,4 +19,7 @@ description blank:false, size:1..300
 
 sectionName blank:false, size:1..10
     }
+String toString(){
+return teamName
+}
 }
