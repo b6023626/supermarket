@@ -1,4 +1,4 @@
-package com.hr
+package com.lnicholson
 
 class Employee {
 
@@ -30,11 +30,11 @@ hourlyRate blank:false
 
 dateEmployed blank:false
 
-taxCode blank:false size:1..30
+taxCode blank:false, size:1..30
 
-contract blank:false size:4..11
+contract blank:false, size:4..11
 
-employeeID blank:false size:2..11
+employeeID blank:false, size:2..11, unique:true
 
     }
 }

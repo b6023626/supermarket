@@ -1,4 +1,4 @@
-package com.hr
+package com.lnicholson
 
 class Shift {
 double timeOfDay

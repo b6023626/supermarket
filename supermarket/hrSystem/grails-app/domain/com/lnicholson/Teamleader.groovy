@@ -1,4 +1,4 @@
-package com.hr
+package com.lnicholson
 
 class Teamleader {
 String fullName
@@ -25,9 +25,9 @@ secionName blank:false, size:1..15
 
 officePhone blank:false, size:1..12
 
-employeeEmail blank:false, size:1..50
+employeeEmail blank:false, size:1..50, email:true
 
-employeeID blank:false, size:1..11
+employeeID blank:false, size:1..11, unique:true
 
 password blank:false, size:1..18
 
