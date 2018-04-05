@@ -13,6 +13,8 @@ String description
 
 String department
 
+Team team
+
 String taskCompleted
 
 
@@ -32,4 +34,7 @@ department blank:false, size:1..20
 taskCompleted size:1..5
 
     }
+String toString(){
+return taskName
+}
 }
