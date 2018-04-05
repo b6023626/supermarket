@@ -1,7 +1,7 @@
 package com.lnicholson
 
 class Shift {
-double timeOfDay
+String timeOfDay
 
 String dayOfWeek
 
@@ -10,7 +10,7 @@ int numberOfHours
 double startingTime
 
     static constraints = {
-timeOfDay blank:false
+timeOfDay blank:false, size:1..15
 
 dayOfWeek blank:false, size:5..10
 
